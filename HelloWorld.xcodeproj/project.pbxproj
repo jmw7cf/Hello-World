@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		166B9E852203B685003FAD10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B9E842203B685003FAD10 /* AppDelegate.swift */; };
-		166B9E872203B685003FAD10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B9E862203B685003FAD10 /* ViewController.swift */; };
 		166B9E8A2203B685003FAD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166B9E882203B685003FAD10 /* Main.storyboard */; };
 		166B9E8C2203B686003FAD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166B9E8B2203B686003FAD10 /* Assets.xcassets */; };
 		166B9E8F2203B686003FAD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166B9E8D2203B686003FAD10 /* LaunchScreen.storyboard */; };
 		166B9E9A2203B686003FAD10 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B9E992203B686003FAD10 /* HelloWorldTests.swift */; };
 		166B9EA52203B686003FAD10 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B9EA42203B686003FAD10 /* HelloWorldUITests.swift */; };
+		166B9EB32203BE0E003FAD10 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B9EB22203BE0E003FAD10 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		166B9E812203B685003FAD10 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		166B9E842203B685003FAD10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		166B9E862203B685003FAD10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		166B9E892203B685003FAD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		166B9E8B2203B686003FAD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		166B9E8E2203B686003FAD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		166B9EA02203B686003FAD10 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		166B9EA42203B686003FAD10 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		166B9EA62203B686003FAD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166B9EB22203BE0E003FAD10 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				166B9E842203B685003FAD10 /* AppDelegate.swift */,
-				166B9E862203B685003FAD10 /* ViewController.swift */,
+				166B9EB22203BE0E003FAD10 /* HelloWorldViewController.swift */,
 				166B9E882203B685003FAD10 /* Main.storyboard */,
 				166B9E8B2203B686003FAD10 /* Assets.xcassets */,
 				166B9E8D2203B686003FAD10 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166B9E872203B685003FAD10 /* ViewController.swift in Sources */,
+				166B9EB32203BE0E003FAD10 /* HelloWorldViewController.swift in Sources */,
 				166B9E852203B685003FAD10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
